@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title {
+    border-radius: 2px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #a1b5f7;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    margin-right: 10px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+}
+
+.tabela {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabela div {
+    display: flex;
+}
+
+.tabela div.table-title {
+    padding: 10px 20px;
+}
+
+.tabela div span {
+    margin: 1px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+}
+
+.tabela div span.num-primo {
+    background-color: rgb(182, 213, 238);
+}
+
+.tabela div span.num-par {
+    background-color: rgb(210, 250, 210);
+}
+
+.tabela div span.num-intersecao {
+    background-color: rgb(245, 207, 150);
+}
+
+.info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+}
+
+.info div span {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.info div.span-pares {
+    background-color: rgb(210, 250, 210);
+}
+
+.info div.span-primos {
+    background-color: rgb(182, 213, 238);
+}
+
+.info div.span-intersecao {
+    background-color: rgb(245, 207, 150);
+}
